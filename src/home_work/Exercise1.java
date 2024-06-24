@@ -3,7 +3,7 @@ package home_work;
 import java.time.LocalDate;
 import java.util.Scanner;
 
-public class CalculatePersonAge {
+public class Exercise1 {
 
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
@@ -25,6 +25,7 @@ public class CalculatePersonAge {
       }
     } while (!validInput);
 
+    System.out.println("=== result ===");
     System.out.println("Your age: " + (localDate.getYear() - yOB));
   }
 }
